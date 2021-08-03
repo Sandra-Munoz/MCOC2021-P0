@@ -2,54 +2,46 @@
 
 # Mi computador principal
 
-* Marca/modelo: System 76 Serval WS
+* Marca/modelo: MacBook Air 
 * Tipo: Notebook
-* Año adquisición: 2015
+* Año adquisición: 2014
 * Procesador:
-  * Marca/Modelo: Intel Core i7-4790K
-  * Velocidad Base: 4.00 GHz
-  * Velocidad Máxima: 4.40 GHz
-  * Numero de núcleos: 4 
-  * Humero de hilos: 2
-  * Arquitectura: x86_64
-  * Set de instrucciones: Intel SSE4.1, Intel SSE4.2, Intel AVX2
+  * Marca/Modelo: Intel Core i5-4260U
+  * Velocidad Base: 1.40 GHz
+  * Velocidad Máxima: 1.40 GHz
+  * Numero de núcleos: 2 
+  * Humero de hilos: 4
+  * Arquitectura: x86 Haswell
+  * Set de instrucciones: 
 * Tamaño de las cachés del procesador
-  * L1d: 32KB
-  * L1i: 32KB
-  * L2: 256KB
-  * L3: 8192KB
+  * L3: 3 MB
 * Memoria 
-  * Total: 32 GB
+  * Total: 4 GB
   * Tipo memoria: DDR3
-  * Velocidad 1867 MHz
+  * Velocidad 1600 MHz
   * Numero de (SO)DIMM: 4
 * Tarjeta Gráfica
-  * Marca / Modelo: Nvidia GeForce GTX 980M
-  * Memoria dedicada: 8192 MB
-  * Resolución: 1920 x 1080
+  * Marca / Modelo: HD Gragics 5000
+  * Memoria dedicada: 
+  * Resolución: 1366 x 768
 * Disco 1: 
   * Marca: Samsung
   * Tipo: SSD
-  * Tamaño: 1TB
-  * Particiones: 4
-  * Sistema de archivos: EXT4, swap
+  * Tamaño: 
+  * Particiones: 5
+  * Sistema de archivos: MS-DOS FAT32
 * Disco 2: 
   * Marca: Samsung
   * Tipo: SSD
-  * Tamaño: 1TB
-  * Particiones: 1
-  * Sistema de archivos: EXT4
-* Disco 3: 
-  * Marca: Samsung
-  * Tipo: SSD
-  * Tamaño: 1TB
-  * Particiones: 1
-  * Sistema de archivos: EXT4
+  * Tamaño: 
+  * Particiones: 2
+  * Sistema de archivos: MS-DOS FAT32
+
   
-* Dirección MAC de la tarjeta wifi: 5C:E0:C5:D7:EE:48 
-* Dirección IP (Interna, del router): 192.168.0.129
-* Dirección IP (Externa, del ISP): 190.45.122.34
-* Proveedor internet: VTR Banda Ancha S.A.
+* Dirección MAC de la tarjeta wifi: 64:76:ba:a8:c6:70
+* Dirección IP (Interna, del router): 
+* Dirección IP (Externa, del ISP): 
+* Proveedor internet: Mi Internet 
 
 
 
