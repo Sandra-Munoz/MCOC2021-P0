@@ -69,11 +69,9 @@
 
 # Entrega 3
 
-* Caso 1 - Half:
-![Rendimiento caso 1 half](https://user-images.githubusercontent.com/88350644/129988921-a13cd09e-317b-40ad-93d4-e43e84032ca0.png)
+* Caso 1 - Half: ![Rendimiento caso 1 half](https://user-images.githubusercontent.com/88350644/129988921-a13cd09e-317b-40ad-93d4-e43e84032ca0.png)
 
-* Caso 1 - Single:
-![Rendimiento caso 1 single](https://user-images.githubusercontent.com/88350644/129988943-8652954c-ab8b-4d44-987b-370de3697838.png)
+* Caso 1 - Single: ![Rendimiento caso 1 single](https://user-images.githubusercontent.com/88350644/129988943-8652954c-ab8b-4d44-987b-370de3697838.png)
 
 * Caso 1 - Double:
  ![Rendimiento caso 1 double](https://user-images.githubusercontent.com/88350644/129988970-4baea4ac-85e9-4eec-88b9-3a94985f7c15.png)
