@@ -43,7 +43,7 @@
 * Dirección IP (Externa, del ISP): 
 * Proveedor internet: Mi Internet 
 
-#Entrega 2
+# Entrega 2
 
 * ¿Cómo difiere del gráfico del profesor/ayudante?
 * La diferencia se da en l velocidad, ya que en mi caso, el gráfico, parte en aproximadamente 1s en el Tiempo transcurrido, y el termino en 1 minuto aproximadamente. Esto se da ya que, e procesador de mi comptador tiene una velocidad menor, lo que genera un mayor tiempo en la ejecución del código.
@@ -64,6 +64,48 @@
 
 * Gáfico
 ![Figure 2021-08-06 104301](https://user-images.githubusercontent.com/88350644/128534126-db006774-09c3-4f42-8cc8-0253d5d2f29e.png)
+
+
+
+# Entrega 3
+
+* Caso 1 - Half:
+* ![Rendimiento caso 1 half](https://user-images.githubusercontent.com/88350644/129988921-a13cd09e-317b-40ad-93d4-e43e84032ca0.png)
+
+* Caso 1 - Single:
+* ![Rendimiento caso 1 single](https://user-images.githubusercontent.com/88350644/129988943-8652954c-ab8b-4d44-987b-370de3697838.png)
+
+* Caso 1 - Double:
+* ![Rendimiento caso 1 double](https://user-images.githubusercontent.com/88350644/129988970-4baea4ac-85e9-4eec-88b9-3a94985f7c15.png)
+
+* Caso 1 - Longdouble:
+* ![Rendimiento caso 1 longdouble](https://user-images.githubusercontent.com/88350644/129988994-f7de4c72-8cee-4a5b-a40e-6a2f7ea93660.png)
+
+* Caso 2 - Half:
+* ![Rendimiento caso 2 half](https://user-images.githubusercontent.com/88350644/129989010-883a1321-6159-4fcc-81db-fefdd02f9914.png)
+
+* Caso 2 - Single:
+* ![Rendimiento caso 2 single](https://user-images.githubusercontent.com/88350644/129989038-1b032c24-377d-4d4f-969c-db5d723d8514.png)
+
+* Caso 2 - Double:
+* ![Rendimiento caso 2 double](https://user-images.githubusercontent.com/88350644/129989077-fb5a6cb6-d7e4-48b9-bcc9-66f4908453ee.png)
+
+* Caso 2 - Longdouble:
+* ![Rendimiento caso 2 longdouble](https://user-images.githubusercontent.com/88350644/129990022-2272b6aa-d4e0-48c6-a208-ddecd3ff1e13.png)
+
+* Caso 3 - Half:
+* ![Rendimiento caso 3 half](https://user-images.githubusercontent.com/88350644/129990047-eddde346-7f9b-4a18-9e84-dc9d4a4c56a2.png)
+
+* Caso 3 - Single:
+* ![Rendimiento caso 3 single](https://user-images.githubusercontent.com/88350644/129990075-c986556e-f51c-45a4-9669-d7588cb62c9c.png)
+
+* Caso 3 - Double:
+* ![Rendimiento caso 3 double](https://user-images.githubusercontent.com/88350644/129990090-bd4f1a76-a22c-4d3d-9343-d17901a5a792.png)
+
+* Caso 3 - Longdouble:
+* ![Rendimiento caso 3 longdouble](https://user-images.githubusercontent.com/88350644/129990102-a176803b-d910-4457-bd5e-cb33eaac7087.png)
+
+
 
 
 
