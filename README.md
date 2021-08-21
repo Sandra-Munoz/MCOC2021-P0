@@ -107,6 +107,11 @@ Caso 1 - Half:
 
 
 
+# Entrega 4
 
+* ¿Como es la variabilidad del tiempo de ejecucion para cada algoritmo? ¿Qué algoritmo gana (en promedio) en cada caso? ¿Depende del tamaño de la matriz? ¿A que se puede deber la superioridad de cada opción? ¿Su computador usa más de un proceso por cada corrida? ¿Que hay del uso de memoria (como crece)? 
 
+* Al comparar el tiempo entre el uso de eigh y solve, eigh toma un tiempo considerable al ejecutar el codigo cuando la matriz es grande, como al utilizar N=10000. Este tiempo es mucho mayor que el que se gasta al utilizar solve.
+* En cuanto al algoritmo que gana en promedio, se puede decir que ese es solve, ya que es mucho mas eficiente, debido que, para un N=8000, que fue el maximo valor para realizar la matriz, el tiempo promedio que tomo el codigo en ejecutar fue de aproximadamente 20 a 30 segundos, a diferencia de eigh que uso un teimpo promedio de aproximandamente 2,5 minutos para el mismo N.
+* El tiempo de ejecución sí depende del tamaño de la matriz, ya que mientas más grande sea esta, mayor será el tiempo que tarde el codigo en finalizar.
 
