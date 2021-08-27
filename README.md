@@ -115,3 +115,33 @@ Caso 1 - Half:
 * En cuanto al algoritmo que gana en promedio, se puede decir que ese es solve, ya que es mucho mas eficiente, debido que, para un N=8000, que fue el maximo valor para realizar la matriz, el tiempo promedio que tomo el codigo en ejecutar fue de aproximadamente 20 a 30 segundos, a diferencia de eigh que uso un teimpo promedio de aproximandamente 2,5 minutos para el mismo N.
 * El tiempo de ejecución sí depende del tamaño de la matriz, ya que mientas más grande sea esta, mayor será el tiempo que tarde el codigo en finalizar.
 
+# Entrega 5 
+
+* Código matriz laplaciana.
+
+``
+ 
+ def matriz_laplaciana(N,t=double):
+      e=eye(N)-eye(N,N,1)
+      return t(e+e.T)
+
+
+for i in range(10):
+    
+    for N in Ns:
+       
+        t1=perf_counter()
+        A=matriz_laplaciana(N)
+        b=matriz_laplaciana(N)
+        Acsr1=sparse.csr_matrix(A)
+        Acsr2=sparse.csr_matrix(b)
+        t2=perf_counter()
+        x=Acsr1@Acsr2
+        t3=perf_counter()
+        
+        dt=t2-t1 #tiempo ensamblado
+        dt2=t3-t2 #tiempo de solución
+        Dts.append(dt)
+        Dts2.append(dt2)
+ ``
+
