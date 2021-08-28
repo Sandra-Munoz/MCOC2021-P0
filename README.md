@@ -119,12 +119,10 @@ Caso 1 - Half:
 
 * Código matriz laplaciana.
 
-``
- 
- def matriz_laplaciana(N,t=double):
-      e=eye(N)-eye(N,N,1)
-      return t(e+e.T)
 
+def matriz_laplaciana(N,t=double):
+     e=eye(N)-eye(N,N,1)
+     return t(e+e.T)
 
 for i in range(10):
     
@@ -143,5 +141,14 @@ for i in range(10):
         dt2=t3-t2 #tiempo de solución
         Dts.append(dt)
         Dts2.append(dt2)
- ``
+        
 
+* Matriz llena:
+
+ ![plot matriz llena](https://user-images.githubusercontent.com/88350644/131199295-cff9cbcd-bdc1-4b5f-b057-5359f8e82c55.png)
+
+* Matriz dispersa:
+
+![plot matriz dispersa](https://user-images.githubusercontent.com/88350644/131199469-c2d03510-ec8b-42a6-b3a6-4e384740b060.png)
+
+* En relación a los resultados obtenidos, se puede ver que el tiempo que demora la multiplicación es bstante menor en la matriz dispersa, lo que se debe principalemente a que en esta, no se consideran los ceros como es en la matriz llena, lo que hace que el teimpo se reduzca considerablemente. 
