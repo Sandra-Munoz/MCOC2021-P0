@@ -63,6 +63,7 @@
 ![Captura de Pantalla 2021-08-06 a la(s) 11 38 57](https://user-images.githubusercontent.com/88350644/128535297-ff707174-9adf-426d-9076-d8d7814179c2.png)
 
 * Gáfico
+
 ![Figure 2021-08-06 104301](https://user-images.githubusercontent.com/88350644/128534126-db006774-09c3-4f42-8cc8-0253d5d2f29e.png)
 
 
@@ -152,3 +153,54 @@ for i in range(10):
 ![plot matriz dispersa](https://user-images.githubusercontent.com/88350644/131199469-c2d03510-ec8b-42a6-b3a6-4e384740b060.png)
 
 * En relación a los resultados obtenidos, se puede ver que el tiempo que demora la multiplicación es bstante menor en la matriz dispersa, lo que se debe principalemente a que en esta, no se consideran los ceros como es en la matriz llena, lo que hace que el teimpo se reduzca considerablemente. 
+
+
+# Entrega 6
+
+* Código matriz laplaciana para inversa de matriz llena
+
+def matriz_laplaciana(N,t=double):
+     e=eye(N)-eye(N,N,1)
+     return t(e+e.T)
+
+for i in range(10):
+    
+    for N in Ns:
+       
+        t1=perf_counter()
+        A=matriz_laplaciana(N)
+        b=matriz_laplaciana(N)
+        Acsr1=sparse.csr_matrix(A)
+        Acsr2=sparse.csr_matrix(b)
+        t2=perf_counter()
+        x=inv(A)
+        t3=perf_counter()
+        
+        dt=t2-t1 #tiempo ensamblado
+        dt2=t3-t2 #tiempo de solución
+        Dts.append(dt)
+        Dts2.append(dt2)
+
+* Para el caso de solve, la matriz dispersa fue la que más se demoró en completar los diez ciclo, en aproximadamente 4350 segundos, mientras que la matriz llena en completar los diez ciclos ocupo un tiempo de 2300 segundos aproximadamente.
+* En cuanto al caso Inv, el tiempo que demoró la matriz dispersa fue de aproximadament 4500 segundos y la matriz llena 7500 segundos aproximadamente.
+* Esto indica que el mejor método es utilizando solve, ya que el tiempo que domoraron en completarse los 10 ciclos en la matriz dispersa y llena son menores que usando Inv
+* Para Inv en la matriz llena cada uno de los ciclos tienen tiempos casi iguales, lo que hace que se bastante estable. Para la matriz dispersa en promedio, entre un ciclo y otro hubo una variacion de 0,4 segundos en cada uno de los N de la matriz, lo cual, aun que sea una diferencia minima, si es considerable em el tiempo final una vez terminados los 10 ciclos 
+* Para solve, la matriz llena, tiene diferencias de menos de 0,1 segundos por cada N en los 10 ciclos, lo cual no genera mayores aumentos en el tiempo final una vez terminados los 10 ciclos, a diferencia de la amtriz dispersa que hay un tiempo aproximado de 0,5 segundos de diferencia entre cada N de cada ciclo.
+
+* Matriz llena Solve:
+
+![Plot matriz llena solve](https://user-images.githubusercontent.com/88350644/132080687-bfe64233-13ef-4617-8ac3-bf257f4808ca.png)
+
+* Matriz llena Inv:
+
+![Plot Matriz llena inv](https://user-images.githubusercontent.com/88350644/132080706-12de89c3-b424-45b2-90e6-1762f6a9ee3f.png)
+
+* Matriz dispersa Solve:
+
+![Plot Matriz dispersa solve](https://user-images.githubusercontent.com/88350644/132080729-4bcfdf37-8bed-4152-95b6-357deb202ee5.png)
+
+* Matriz dispersa Inv:
+
+![Plot Matriz dispersa Inv](https://user-images.githubusercontent.com/88350644/132080734-5c2f4911-5194-402d-aabb-2674e56a35bc.png)
+
+
